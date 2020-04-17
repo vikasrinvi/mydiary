@@ -44,8 +44,8 @@ return [
 
     // Article Page
     'article' => [
-        'title'       => 'Nothing is impossible.',
-        'description' => 'Everything is Possible',
+        'title'       => 'Article.',
+        'description' => 'Write it out',
         'number'      => 15,
         'sort'        => 'desc',
         'sortColumn'  => 'published_at',
