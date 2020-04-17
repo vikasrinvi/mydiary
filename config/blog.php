@@ -24,8 +24,8 @@ return [
 
     // Meta
     'meta' => [
-        'keywords' => 'Diary  Blog,blog ,laravel,vuejs',
-        'description' => 'Nothing is impossible in Diary Blog'
+        'keywords' => 'MyDiary, Diary, Blog, blog,News,Poem,Story,Jnv,Navodaya,NVS,RNV,School, Memories',
+        'description' => 'Diary Blog, lets Share our creation'
     ],
 
     // Social Share
