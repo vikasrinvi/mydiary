@@ -68,6 +68,10 @@ return [
             'open' => true,
             'url'  => 'https://twitter.com/vikasrnv'
         ],
+        'facebook' => [
+            'open' => true,
+            'url'  => 'https://www.facebook.com/mydiarynavodyan'
+        ],
         'meta' => '© My Diary 2020. Powered By Vikas Rinvi',
     ],
 
