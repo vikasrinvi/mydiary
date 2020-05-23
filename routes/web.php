@@ -3,6 +3,8 @@
 // User Auth
 Auth::routes();
 Route::post('password/change', 'UserController@changePassword')->middleware('auth');
+Route::get('/about-us', 'GeneralController@aboutUs');
+Route::get('/privacy-policy', 'GeneralController@privacyPolicy');
 
 // Github Auth Route
 Route::group(['prefix' => 'auth/github'], function () {

@@ -22,9 +22,25 @@
                         </a>
                     </li>
                     @endif
+                    @if(config('blog.footer.facebook.open'))
+                    <li class="mx-2">
+                        <a href="{{ config('blog.footer.facebook.url') }}" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="{{ config('blog.footer.facebook.url') }}" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    @endif
                 </ul>
                 <div class="links">
                     <a href="{{ url('link') }}">{{ lang('Links') }}</a>
+                </div>
+                <div class="">
+                    <a href="{{ url('/about-us') }}">About Us</a>
+                    <a href="{{ url('/privacy-policy') }}">Privacy Policy</a>
                 </div>
             </div>
         </div>

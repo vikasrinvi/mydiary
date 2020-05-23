@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="{{ config('blog.meta.keywords') }}">
     <meta name="description" content="{{ config('blog.meta.description') }}">
-
+    
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="google-site-verification" content="HeQPL9wxgcyQM-5zjq5dgXPXAt8FzJ7ddqQ-mUJu-gU" />
 
     <link rel="shortcut icon" href="{{ config('blog.default_icon') }}">
 
@@ -27,6 +28,18 @@
     </script>
 
     @yield('styles')
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167000093-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-167000093-1');
+    </script>
+
+
+
 </head>
 <body>
     <div id="app">
@@ -40,6 +53,9 @@
     </div>
 
     <!-- Scripts -->
+        <script data-ad-client="ca-pub-4329833524801916" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    {{-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> --}}
+{{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> --}}
     <script src="{{ mix('js/home.js') }}"></script>
 
     @yield('scripts')
