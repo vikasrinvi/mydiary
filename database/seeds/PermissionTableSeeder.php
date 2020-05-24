@@ -1,8 +1,10 @@
 <?php
 
+use App\User;
 use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\Role;
 
 class PermissionTableSeeder extends Seeder
 {
@@ -29,6 +31,12 @@ class PermissionTableSeeder extends Seeder
             ['name' => 'create_article'],
             ['name' => 'update_article'],
             ['name' => 'destroy_article'],
+
+            // Series
+            ['name' => 'list_series'],
+            ['name' => 'create_series'],
+            ['name' => 'update_series'],
+            ['name' => 'destroy_series'],
 
             // Discussion
             ['name' => 'list_discussion'],
@@ -86,5 +94,15 @@ class PermissionTableSeeder extends Seeder
         }
 
         Permission::insert($permissions);
+
+        $permissions= Permission::all();
+        $role = Role::where('name', 'admin')->first();
+
+
+   foreach($permissions as $permission) {
+      
+         $role->givePermissionTo($permission->name);
+   }
+
     }
 }
