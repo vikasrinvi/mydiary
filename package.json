@@ -20,12 +20,11 @@
     "cross-env": "^5.1",
     "emojione": "^2.2.7",
     "fine-uploader": "^5.15.7",
-    "jquery": "^3.3",
     "laravel-mix": "^4.0.7",
     "lodash": "^4.17.5",
     "marked": "^0.8.0",
     "path-to-regexp": "^1.7.0",
-    "popper.js": "^1.13.0",
+    "popper.js": "^1.16.1",
     "resolve-url-loader": "^2.3.1",
     "sass": "^1.15.2",
     "sass-loader": "^7.1.0",
@@ -42,5 +41,8 @@
     "vue-template-compiler": "^2.6.8",
     "vuedraggable": "^2.23.2",
     "vuex": "^2.5.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
   }
 }
