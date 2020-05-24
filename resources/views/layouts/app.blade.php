@@ -9,6 +9,7 @@
     
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="propeller" content="56b81495bdf067849c1c0c30500766eb">
     <meta name="google-site-verification" content="HeQPL9wxgcyQM-5zjq5dgXPXAt8FzJ7ddqQ-mUJu-gU" />
 
     <link rel="shortcut icon" href="{{ config('blog.default_icon') }}">
