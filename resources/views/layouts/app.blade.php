@@ -54,13 +54,14 @@
 
         <div class="main">
             @yield('content')
-        </div>
-        <script type="text/javascript" language="javascript">
-          var aax_size='728x90';
-          var aax_pubname = 'vikas0af6-21';
-          var aax_src='302';
-        </script>
+            <script type="text/javascript" language="javascript">
+              var aax_size='728x90';
+              var aax_pubname = 'vikas0af6-21';
+              var aax_src='302';
+            </script>
         <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
+        </div>
+
         @include('particals.footer')
     </div>
 
