@@ -9,6 +9,12 @@
     
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <script type="text/javascript">
+    window._mNHandle = window._mNHandle || {};
+    window._mNHandle.queue = window._mNHandle.queue || [];
+    medianet_versionId = "3121199";
+    </script>
+<script src="https://contextual.media.net/dmedianet.js?cid=8CU7R7723" async="async"></script>
     <meta name="propeller" content="56b81495bdf067849c1c0c30500766eb">
     <meta name="google-site-verification" content="HeQPL9wxgcyQM-5zjq5dgXPXAt8FzJ7ddqQ-mUJu-gU" />
 
@@ -47,6 +53,16 @@
         @include('particals.navbar')
 
         <div class="main">
+            <div id="766779035">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("766779035", "160x600", "766779035");
+            });
+        }
+        catch (error) {}
+    </script>
+</div>
             @yield('content')
         </div>
 
