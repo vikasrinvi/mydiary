@@ -25,11 +25,13 @@
             <div class="col-md-8 offset-md-2">
             <img class="img-fluid" alt="{{ $article->slug }}" src="{{ $article->page_image }}"  style="borde-radius:50px">
             </div>
+            <div class="col-md-8 offset-md-2">
         <script type="text/javascript" language="javascript">
           var aax_size='728x90';
           var aax_pubname = 'vikas0af6-21';
           var aax_src='302';
         </script>
+        </div>
         <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
         </div>
         <br>
