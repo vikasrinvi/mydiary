@@ -60,6 +60,12 @@
                     <h5><a href="{{$next_article->slug}}" style="color:#9CAEBF;">{{$next_article->title}}</a></h5>
                 </div>
             @endif
+            <script type="text/javascript" language="javascript">
+              var aax_size='728x90';
+              var aax_pubname = 'vikas0af6-21';
+              var aax_src='302';
+            </script>
+            <script type="text/javascript" language="javascript" src="http://c.amazon-adsystem.com/aax2/assoc.js"></script>
             </div>
         </div>
     </div>
