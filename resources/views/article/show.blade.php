@@ -44,7 +44,16 @@
                         initialized></div>
                 </div>
             @endif
-
+            <div id="766779035">
+                <script type="text/javascript">
+                    try {
+                        window._mNHandle.queue.push(function (){
+                            window._mNDetails.loadTag("766779035", "160x600", "766779035");
+                        });
+                    }
+                    catch (error) {}
+                </script>
+            </div>
             @if ($next_article) 
                 <div class="col-12 px-0 py-4">
                     <h4>{{lang('Next Article')}}</h4>
